@@ -1,0 +1,41 @@
+/* Navegación Horizontal INICIO*/
+.nav{
+    position: relative;
+}
+
+.nav1{
+    float: right;
+    width: 100%;
+    min-height: 3rem;
+    border-bottom-left-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+.nav ul{
+    list-style: none;
+    text-align: right;
+}
+
+.menu > li{
+    position:relative;
+    display:inline-block;
+}
+
+.menu > li > a{
+    display: block;
+    padding-right: 0.25vw;
+    padding-left: 0.25vw;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-left: 0.5vw;
+    top:0;
+    color: #111;
+    text-decoration: none;
+}
+
+.menu li:hover .sub-menu{
+    visibility:visible;
+    opacity: 1;
+}

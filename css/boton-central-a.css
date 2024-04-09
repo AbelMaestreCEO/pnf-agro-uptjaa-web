@@ -1,0 +1,28 @@
+.boton-central-a{
+    float: left;
+    width: calc(100vw - 88vw);
+    min-width: 100px;
+    padding:1%;
+    aspect-ratio: 1/1;
+    box-sizing: border-box;
+    border-radius: 25%;
+    display: block;
+    margin-top: 3vh;
+    margin-left: 3vw;
+    margin-bottom: 1vh;
+    background-size: cover;
+    background-position: center;
+    }
+.boton-central-a:hover{
+    border-radius: 100%;
+    border: 0.2vw solid rgba(17, 85, 17, 0.5);
+    cursor:pointer;
+}
+
+.boton-central-doc-a{
+    background-image: url(../images/libro.webp);
+}
+
+.boton-central-uptjaa-a{
+    background-image: url(../images/uptjaa.webp);
+}

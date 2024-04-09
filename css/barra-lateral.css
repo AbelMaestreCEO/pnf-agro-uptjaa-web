@@ -1,0 +1,91 @@
+/* Navegación Vertical */
+.navv{
+    float: left;
+    margin-top: 1vh;
+    padding-bottom:auto;
+    border-top-right-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    height: 91vh;
+}
+
+.text-menuv{
+    font-size: 1rem;
+    color:#111;
+}
+
+.titulo-menuv{
+    margin-top: 2vh;
+    font-size: 1rem;
+    color:#111;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.navv ul{
+    list-style: none;
+}
+
+.menuv > li{
+    position:relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.menuv > li > a{
+    display: block;
+    padding-right: 0.125vw;
+    padding-left: 0.125vw;
+    padding-top: 0.125vh;
+    padding-bottom: 0.125vh;
+    margin-left: 0.5vw;
+    margin-top: calc(100vh - 99vh);
+    margin-bottom: calc(100vh - 98vh);
+    color: #111;
+    text-decoration: none;
+}
+
+.menuv > li > a:hover{
+    text-shadow: 0.1vw 0.1vh 0.2vw #000
+}
+
+.menuv li:hover .sub-menuv{
+    visibility:visible;
+    opacity: 1;
+}
+
+/* Estilo para pantallas más grandes */
+@media screen and (min-width: 1025px) {
+    .navv{
+        width: 15vw;
+    }
+    .menu-text {
+      display: block;
+      margin-top:0.75rem;
+      margin-left:3rem;
+      position: absolute;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .navv{
+        width: 20vw;
+    }
+    .menu-text {
+      display: block;
+      margin-top:0.75rem;
+      margin-left:3rem;
+      position: absolute;
+    }
+}
+  
+  /* Estilo para pantallas más pequeñas */
+  @media screen and (max-width: 767px) {
+    .navv{
+        width: 15vw;
+    }
+    .menu-text {
+      display: none;
+    }
+}

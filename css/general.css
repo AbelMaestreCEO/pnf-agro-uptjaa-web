@@ -1,0 +1,239 @@
+@import url("barra-lateral.css");@import url("barra-superior.css");@import url("boton-central.css");@import url("boton-lateral.css");@import url("boton-menu.css");@import url("boton-superior.css");@import url("videos.css");@import url("boton-central-a.css");@import url("animacion-scroll.css");@import url("boton-inferior.css");@import url("transicion.css");@import url("scroll.css");@import url("blur.css");@import url("borde.css");
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(135deg,#cfc,#efe,#cfc);
+    /*animation: fanimacion 10s infinite;*/
+    margin:0;
+    padding: 0;
+    min-height: 100vh;
+    position:relative;
+}
+
+p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+a{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Cuerpo Principal FIN*/
+
+
+
+/* Animación de fondo INICIO*/
+
+/*@keyframes fanimacion{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}*/
+
+/* Animación de fondo FIN*/
+
+/* Texto Simple INICIO*/
+.texto-simple{
+    font-size: 1rem;
+    margin-top: 1.25vh;
+    margin-bottom: 1.25vh;
+    color: #111;
+}
+/* Texto Simple FIN*/
+
+/* Separración INICIO*/
+hr{
+    width: 90%;
+    height: 0.05vh;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0.5vh;
+    margin-bottom: 0.5vh;
+    padding-bottom: 0.125vh;
+}
+/* Separración FIN*/
+
+/* Boton VERDE*/
+
+.boton-verde{
+    aspect-ratio: 14/4;
+    min-width: 4rem;
+    min-height: 3rem;
+    text-align: center;
+    float: right;
+    text-decoration: none;
+    background: #aaffaa;
+    color: #151;
+    font-size: 1rem;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    padding-right: 2vw;
+    padding-left: 2vw;
+    margin-right: 1.5rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.boton-verde:hover{
+    /*box-shadow: 0.2vw 0.2vh 1.125vw #151;*/
+    border-radius: 2rem;
+    background: #151;
+    color: #afa;
+}
+
+.boton-verde-bloqueado:hover{
+    cursor: not-allowed;
+}
+
+/* Contenedor */
+
+.titulo-pagina{
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 2vh;
+    margin-right: 1vw;
+    color: #111;
+    float: right;
+    margin-left: 2vw;
+}
+
+.titulo-seccion{
+    font-size: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+    text-align: center;
+}
+
+.titulo-seccion-a{
+    font-size: 1rem;
+    font-weight: bold;
+    margin-left:25vw;
+    margin-right: 1vw;
+    padding-top: 2vh;
+    padding-bottom: 2vh; 
+    display:block;
+    text-align: center;
+}
+
+.parrafo-seccion{
+    font-size: 1rem;
+    margin-left:26vw;
+    margin-right: 2vw;
+    padding-top: 2vh;
+    padding-bottom: 2vh; 
+    display:block;
+    text-align: center;
+}
+
+.x{
+    display:flex;
+    overflow-x: auto;
+    max-height: 110%;
+}
+
+.y{
+    display: flex;
+    overflow-x: auto;
+    max-height: 110%;
+}
+
+.a{
+    display: flex;
+    overflow-x: auto;
+    max-height: 110%;
+}
+
+.z{
+    display: block;
+    overflow-x: auto;
+    height: 91vh;
+    position:relative;
+    top: 1vh;
+    float: right;
+    padding-left: 0.75vw;
+    padding-bottom: 0.75vw;
+    background-image: url(../images/fondo.webp);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center;
+    background-origin: border-box;
+    border-top-left-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+
+.contenedor{
+    float:left;
+    width: 100%;
+    height: 100%;
+    max-width: 92vw;
+    max-height: 40vh;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    margin-right: 0.5vw;
+    margin-left: 0.5vw;
+    border-radius: 2rem;
+}
+
+.contenedory{
+    background: rgba(245, 245, 245, 0.7);
+}
+
+.contenedorx{
+    background: rgba(245, 245, 245, 0.7);
+    min-width: 27rem;
+}
+
+.tabla{
+    margin: 2vw 2vh;
+    text-align:center;
+}
+
+.columna{
+    width: 100%;
+    height: auto;
+    text-align: left;
+    margin-left: 1vw;
+}
+.fila{
+    height: 50%;
+}
+
+.invisible{
+    opacity: 0;
+}
+
+/* Estilo para pantallas más grandes */
+@media screen and (min-width: 1025px) {
+    .z {
+        width: 83.5vw;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .z {
+        width: 78vw;
+    }
+}
+  
+  /* Estilo para pantallas más pequeñas */
+  @media screen and (max-width: 767px) {
+    .z {
+        width: 83.5vw;
+    }
+}

@@ -1,0 +1,235 @@
+.boton-menu{
+    width: 7vw;
+    min-width: 75px;
+    padding:1%;
+    aspect-ratio: 1/1;
+    box-sizing: border-box;
+    border-radius: 30%;
+    float: left;
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+    margin-bottom: 1.5rem;
+    background-size: cover;
+    background-position: center;
+}
+.boton-menu:hover{
+    border: 0.2vw solid rgba(17, 85, 17, 0.5);
+    cursor:help;
+}
+
+.boton-menu-libro{
+    background-image: url(../images/libro.webp);
+}
+
+.boton-menu-curso{
+    background-image: url(../images/libreria.webp);
+}
+
+.boton-menu-video{
+    background-image: url(../images/tele.webp);
+}
+
+.boton-menu-ia{
+    background-image: url(../images/mei.webp);
+}
+
+.boton-menu-llamada{
+    background-image: url(../images/llamada.webp);
+}
+
+.boton-menu-catalogo{
+    background-image: url(../images/catalogo.webp);
+}
+
+.boton-menu-youtube{
+    background-image: url(../images/youtube.webp);
+}
+
+.boton-menu-UCAB{
+    background-image: url(../images/UCAB.webp);
+}
+
+.boton-menu-UC{
+    background-image: url(../images/UC.webp);
+}
+.boton-menu-UP{
+    background-image: url(../images/UP.webp);
+}
+.boton-menu-instagram{
+    background-image: url(../images/instagram.webp);
+}
+.boton-menu-x{
+    background-image: url(../images/x.webp);
+}
+
+.boton-menu-acerca{
+    background-image: url(../images/acerca.webp);
+}
+
+.boton-menu-egresado{
+    background-image: url(../images/egresado.webp);
+}
+
+.boton-menu-proyecto{
+    background-image: url(../images/proyecto.webp);
+}
+
+.boton-menu-servicio{
+    background-image: url(../images/servicio.webp);
+}
+
+.boton-menu-practicas{
+    background-image: url(../images/practicas.webp);
+}
+
+.boton-menu-laboratorios{
+    background-image: url(../images/laboratorio.webp);
+}
+
+.boton-menu-rector{
+    background-image: url(../images/rector.webp);
+}
+
+.boton-menu-normativa{
+    background-image: url(../images/normativa.webp);
+}
+
+.boton-menu-estudio{
+    background-image: url(../images/estudio.webp);
+}
+
+.boton-menu-horarios{
+    background-image: url(../images/horarios.webp);
+}
+
+.boton-menu-listado{
+    background-image: url(../images/listado.webp);
+}
+
+.boton-menu-contenido{
+    background-image: url(../images/contenido.webp);
+}
+
+.boton-menu-metodologia{
+    background-image: url(../images/metodologias.webp);
+}
+
+.boton-menu-libros{
+    background-image: url(../images/libros.webp);
+}
+
+.boton-menu-antecedentes{
+    background-image: url(../images/antecedentes.webp);
+}
+
+.boton-menu-linkedin{
+    background-image: url(../images/LinkedIn.webp);
+}
+
+.boton-menu-whatsapp{
+    background-image: url(../images/Whatsapp.webp);
+}
+
+.boton-menu-tiktok{
+    background-image: url(../images/tiktok.webp);
+}
+
+.boton-menu-nuevo{
+    background-image: url(../images/nuevo.webp);
+}
+
+.boton-menu-per{
+    background-image: url(../images/per.webp);
+}
+
+.boton-menu-profesional{
+    background-image: url(../images/profesional.webp);
+}
+
+.boton-menu-regular{
+    background-image: url(../images/regular.webp);
+}
+
+.boton-menu-repitiente{
+    background-image: url(../images/repitiente.webp);
+}
+
+.boton-menu-comunitario{
+    background-image: url(../images/comunitario.webp);
+}
+
+.boton-menu-electiva{
+    background-image: url(../images/electiva.webp);
+}
+
+.boton-menu-t1{
+    background-image: url(../images/t1.webp);
+}
+
+.boton-menu-t2{
+    background-image: url(../images/t2.webp);
+}
+
+.boton-menu-t3{
+    background-image: url(../images/t3.webp);
+}
+
+.boton-menu-t4{
+    background-image: url(../images/t4.webp);
+}
+
+.boton-menu-2019{
+    background-image: url(../images/2019.webp);
+}
+
+.boton-menu-2020{
+    background-image: url(../images/2020.webp);
+}
+
+.boton-menu-2021{
+    background-image: url(../images/2021.webp);
+}
+
+.boton-menu-2022{
+    background-image: url(../images/2022.webp);
+}
+
+.boton-menu-2023{
+    background-image: url(../images/2023.webp);
+}
+
+.boton-menu-equis{
+    background-image: url(../images/equis.webp);
+}
+
+.boton-menu-tania{
+    background-image: url(../images/tania.webp);
+}
+
+.boton-menu-agro{
+    background-image: url(../images/agro.webp);
+}
+
+.boton-menu-perfil{
+    background-image: url(../images/perfil.webp);
+}
+
+.boton-menu-uptjaa{
+    background-image: url(../images/uptjaa.webp);
+}
+
+.boton-menu-mirai-ig{
+    background-image: url(../images/mirai/mirai-ig.webp);
+}
+
+.boton-menu-mirai-hai{
+    background-image: url(../images/mirai/mirai-hai.webp);
+}
+
+.boton-menu-mirai-gai{
+    background-image: url(../images/mirai/mirai-gai.webp);
+}
+
+.boton-menu-mirai-voice{
+    background-image: url(../images/mirai/mirai-voice.webp);
+}

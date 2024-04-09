@@ -1,0 +1,11 @@
+.video{
+    width: calc(100vw - 91.4vw);
+    aspect-ratio: 1/1;
+    box-sizing: border-box;
+    border-radius: 30%;
+    float: left;
+    padding:1%;
+    position: absolute;
+    margin-top: -1vh;
+    margin-left: -0.6vw;
+}

@@ -1,0 +1,107 @@
+/* BOTONES */
+
+.boton-lateral{
+    aspect-ratio: 1/1;
+    background: rgba(155, 255, 155, 0.5);
+    height: 2rem;
+    padding:1%;
+    box-sizing: border-box;
+    border-radius: 25%;
+    float:left;
+    margin-top: 1vh;
+    margin-left: 0.5vw;
+    margin-bottom: 1vh;
+    background-position:center;
+    background-size:contain;
+    position: relative;
+}
+.boton-lateral:hover{
+        border: 0.2vw solid rgba(17, 85, 17, 0.5);
+        cursor:pointer;
+        border-radius: 100%;
+}
+
+.boton-lateral-youtube{
+    background-image: url(../images/Claro/youtube.webp);
+}
+.boton-lateral-youtube:hover{
+    background-image: url(../images/youtube.webp);
+}
+.boton-lateral-class{
+    background-image: url(../images/Claro/classroom.webp);
+}
+.boton-lateral-class:hover{
+    background-image: url(../images/classroom.webp);
+}
+
+.boton-lateral-instagram{
+    background-image: url(../images/Claro/instagram.webp);
+}
+.boton-lateral-instagram:hover{
+    background-image: url(../images/instagram.webp);
+}
+
+.boton-lateral-meet{
+    background-image: url(../images/Claro/meet.webp);
+}
+.boton-lateral-meet:hover{
+    background-image: url(../images/meet.webp);
+}
+
+.boton-lateral-zoom{
+    background-image: url(../images/Claro/zoom.webp);
+}
+.boton-lateral-zoom:hover{
+    background-image: url(../images/zoom.webp);
+}
+
+.boton-lateral-ia{
+    background-image: url(../images/Claro/mei.webp);
+}
+.boton-lateral-ia:hover{
+    background-image: url(../images/mei.webp);
+}
+
+.boton-lateral-acerca{
+    background-image: url(../images/Claro/acerca-de.webp);
+}
+
+.boton-lateral-acerca:hover{
+    background-image: url(../images/acerca-de.webp);
+}
+
+.boton-lateral-contact-us{
+    background-image: url(../images/Claro/contact-us.webp);
+}
+
+.boton-lateral-contact-us:hover{
+    background-image: url(../images/contact-us.webp);
+}
+
+.boton-lateral-inf{
+    background-image: url(../images/Claro/upt.webp);
+}
+
+.boton-lateral-inf:hover{
+    background-image: url(../images/upt.webp);
+}
+
+.boton-lateral-telegram{
+    background-image: url(../images/Claro/telegram.webp);
+}
+.boton-lateral-telegram:hover{
+    background-image: url(../images/telegram.webp);
+}
+.boton-lateral-aberu{
+    background-image: url(../images/Claro/aberu.webp);
+}
+.boton-lateral-aberu:hover{
+    background-image: url(../images/aberu.webp);
+}
+
+.boton-lateral-prensa{
+    background-image: url(../images/Claro/prensa.webp);
+}
+.boton-lateral-prensa:hover{
+    background-image: url(../images/prensa.webp);
+}

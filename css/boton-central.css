@@ -1,0 +1,51 @@
+.boton-central{
+        width: calc(100vw - 88vw);
+        min-width: 100px;
+        padding:1%;
+        aspect-ratio: 1/1;
+        box-sizing: border-box;
+        border-radius: 100%;
+        display: block;
+        margin-top: 3vh;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 1vh;
+        background-size: cover;
+        background-position: center;
+    }
+.boton-central:hover{
+    border: 0.2vw solid rgba(17, 85, 17, 0.5);
+    cursor:pointer;
+}
+
+.boton-central-doc{
+    background-image: url(../images/libro.webp);
+}
+
+.boton-central-prueba{
+    background-image: url(../images/upt.webp);
+}
+
+.boton-central-agro{
+    background-image: url(../images/Logo.webp);
+}
+
+.boton-central-prensa{
+    background-image: url(../images/periodistas.webp);
+}
+
+.boton-central-aberu{
+    background-image: url(../images/aberu-icon.webp);
+}
+
+.boton-central-antecedentes{
+    background-image: url(../images/antecedentes.webp);
+}
+
+.boton-central-listado{
+    background-image: url(../images/listado.webp);
+}
+
+.boton-central-contenido{
+    background-image: url(../images/contenido.webp);
+}

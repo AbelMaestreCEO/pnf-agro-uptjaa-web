@@ -1,0 +1,44 @@
+.pie{
+    width:4rem;
+    height: 4rem;
+    float: right;
+    position:relative;
+    aspect-ratio: 1/1;
+    margin-top: -10vh;
+    margin-right: 3vw;
+}
+
+.boton-inferior{
+    aspect-ratio: 1/1;
+    width: 100%;
+    max-width: 4rem;
+    max-height: 4rem;
+    height: 100%;
+    text-align: center;
+    text-decoration: none;
+    background: #aaffaa;
+    float: right;
+    position: fixed;
+    margin-right: 5vw;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    padding-right: 2vw;
+    padding-left: 2vw;
+    background-image: url(../images/Transparente.webp);
+    background-position:center;
+    background-size:contain;
+    border-radius: 25%;
+    cursor: pointer;
+}
+
+.boton-inferior:hover{
+    border-radius: 100%;
+}
+
+.boton-inferior-mei{
+    background-image: url(../images/Claro/mei.webp);
+}
+
+.boton-inferior-mei:hover{
+    background-image: url(../images/mei.webp);
+}
